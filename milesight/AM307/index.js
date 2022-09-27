@@ -55,26 +55,6 @@ function Decoder(bytes, port) {
             decoded.pressure = readUInt16LE(bytes.slice(i, i + 2)) / 10;
             i += 2;
         }
-        // HCHO
-        // else if (channel_id === 0x0A && channel_type === 0x7D) {
-        //     decoded.hcho = readUInt16LE(bytes.slice(i, i + 2)) / 100;
-        //     i += 2;
-        // }
-        // // PM2.5
-        // else if (channel_id === 0x0B && channel_type === 0x7D) {
-        //     decoded["pm2.5"] = readUInt16LE(bytes.slice(i, i + 2));
-        //     i += 2;
-        // }
-        // // PM10
-        // else if (channel_id === 0x0C && channel_type === 0x7D) {
-        //     decoded.pm10 = readUInt16LE(bytes.slice(i, i + 2));
-        //     i += 2;
-        // }
-        // O3
-        // else if (channel_id === 0x0D && channel_type === 0x7D) {
-        //     decoded.o3 = readUInt16LE(bytes.slice(i, i + 2)) / 100;
-        //     i += 2;
-        // }
         // BEEP
         else if (channel_id === 0x0E && channel_type === 0x01) {
             decoded.beep = bytes[i] === 1 ? "yes" : "no";
