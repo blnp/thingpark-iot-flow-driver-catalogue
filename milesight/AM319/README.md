@@ -266,7 +266,8 @@ be first statically declared on the `package.json` file.
 
 So let's add the points `temperature`, `humidity`, `pulseCounter`, and `airHumidity` points to our package (inside the `driver` object):
 
-```json
+```
+json
 {
     "name": "@actilitypub/my-driver",
     "version": "1.0.0",
@@ -410,7 +411,8 @@ npm install --save-dev jest
 
 First, you need to add the `test` script in the `package.json`:
 
-```json
+```
+json
   "scripts": {
     "test": "jest --collectCoverage"
   }
@@ -448,7 +450,8 @@ An `*.errors.json` file contains an array of several uplink/downlink errors exam
 
 The error example used to test `decodeUplink`/`decodeDownlink` function is an object represented by the following json-schema:
 
-```json
+```
+json
 "description": {
         "description": "the description of the error example",
         "type": "string",
