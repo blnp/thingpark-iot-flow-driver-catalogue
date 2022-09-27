@@ -1,18 +1,17 @@
 [
     {
-        "description": "uplink containing only humidity",
+        "description": "uplink containing only hardware_version",
         "type": "uplink",
-        "bytes": "046865",
+        "bytes": "FF090100",
         "fPort": 85,
         "time": "2020-08-02T20:00:00.000+05:00",
         "data": {
-            "humidity": 50.5
+            "hardware_version": "1.0"
         },
         "points": {
-            "humidity": {
-                "unitId": "%RH",
+            "hardware_version": {
                 "type": "double",
-                "record": 50.5
+                "record": "1.0"
             }
         }
     }

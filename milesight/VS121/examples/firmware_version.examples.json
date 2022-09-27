@@ -1,18 +1,17 @@
 [
     {
-        "description": "uplink containing only temperature",
+        "description": "uplink containing only firmware_version",
         "type": "uplink",
-        "bytes": "03673401",
+        "bytes": "FF0A1F07004B",
         "fPort": 1,
         "time": "2020-08-02T20:00:00.000+05:00",
         "data": {
-            "temperature": 30.8
+            "firmware_version": "31.7.0.75"
         },
         "points": {
-            "temperature": {
-                "unitId": "Cel",
+            "firmware_version": {
                 "type": "double",
-                "record": 30.8
+                "record": "31.7.0.75"
             }
         }
     }
