@@ -3,7 +3,7 @@
         "description": "uplink containing only light_level",
         "type": "uplink",
         "bytes": "06cb02",
-        "fPort": 1,
+        "fPort": 85,
         "time": "2020-08-02T20:00:00.000+05:00",
         "data": {
             "light_level": 2
@@ -19,7 +19,7 @@
         "description": "uplink containing all measurements",
         "type": "uplink",
         "bytes": "0367EE0004687C05000106CB02077DA803087D2500097366270A7D04000B7D20000C7D3000",
-        "fPort": 1,
+        "fPort": 85,
         "time": "2020-08-02T20:00:00.000+05:00",
         "data": {
             "temperature": 23.8,
