@@ -5,7 +5,7 @@ function decodeUplink(input) {
 }
 
 
-function Decode(fPort, bytes) {
+function Decoder(bytes, fPort) {
     var decoded = {};
 
     for (i = 0; i < bytes.length; ) {
@@ -110,7 +110,6 @@ function extractPoints(input) {
     }
     return result;
 }
-
 
 
 
