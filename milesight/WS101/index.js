@@ -4,13 +4,7 @@ function decodeUplink(input) {
     return result;
 }
 
-/**
- * Payload Decoder for The Things Network
- *
- * Copyright 2021 Milesight IoT
- *
- * @product WS101
- */
+
 function Decoder(bytes, port) {
     var decoded = {};
 
