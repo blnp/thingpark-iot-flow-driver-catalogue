@@ -1,7 +1,7 @@
 {
   "name": "@actilitypub/milesight-am103&am103l",
   "version": "1.0.0",
-  "description": "AM103 is a compact indoor ambience monitoring sensor for \uF075Features measurement of temperature, humidity and CO2. These data will be shown on the E-ink screen in real-time, which allow to quantify the indoor environment and comfort. AM103 is widely used for office, store, classroom, hospital, etc.",
+  "description": "AM103&AM103L is a compact indoor ambience monitoring sensor for measurement of temperature, humidity and CO2. These data will be shown on the E-ink screen in real-time, which allow to quantify the indoor environment and comfort. AM103&AM103L is widely used for office, store, classroom, hospital, etc.",
   "specification": "https://resource.milesight-iot.com/milesight/document/am103&am103l-datasheet-en.pdf",
   "deviceImageUrl": "https://resource.milesight-iot.com/Support/kevin/AM103&AM103L.png",
   "manufacturerLogoUrl": "https://resource.milesight-iot.com/Support/kevin/Logo.png",
