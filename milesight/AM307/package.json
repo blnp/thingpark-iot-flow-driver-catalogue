@@ -21,6 +21,10 @@
       "version": "1"
     },
     "points": {
+      "battery": {
+        "unitId": "%",
+        "type": "int64"
+      },
       "temperature": {
         "unitId": "Cel",
         "type": "double"
@@ -29,22 +33,26 @@
         "unitId": "%RH",
         "type": "double"
       },
+      "activity": {
+        "type": "string"
+      },
+      "light_level": {
+        "unitId": "lux",
+        "type": "int64"
+      },
       "co2": {
         "unitId": "ppm",
         "type": "int64"
       },
-      "tvoc": {
+      "TVOC": {
+        "unitId": "ppb",
         "type": "int64"
       },
       "pressure": {
         "unitId": "hPa",
         "type": "double"
       },
-      "light": {
-        "unitId": "level",
-        "type": "int64"
-      },
-      "pir": {
+      "beep": {
         "type": "string"
       }
     }

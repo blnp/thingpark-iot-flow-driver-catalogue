@@ -18,20 +18,17 @@
     {
         "description": "uplink containing all measurements",
         "type": "uplink",
-        "bytes": "0367EE0004687C05000106CB02077DA803087D2500097366270A7D04000B7D20000C7D3000",
+        "bytes": "0367EE0004687C05000106CB02077DA803087D250009736627",
         "fPort": 1,
         "time": "2020-08-02T20:00:00.000+05:00",
         "data": {
             "temperature": 23.8,
             "humidity": 62,
-            "activity": "trigger",
+            "pir": "trigger",
             "light_level": 2,
             "co2": 936,
             "tvoc": 37,
-            "pressure": 1008.6,
-            "hcho": 0.04,
-            "pm2.5": 32,
-            "pm10": 48
+            "pressure": 1008.6
         },
         "points": {
             "temperature": {
@@ -44,7 +41,7 @@
                 "type": "double",
                 "record": 62
             },
-            "activity": {
+            "pir": {
                 "type": "string",
                 "record": "trigger"
             },
@@ -66,21 +63,6 @@
                 "unitId": "hPa",
                 "type": "double",
                 "record": 1008.6
-            },
-            "hcho": {
-                "unitId": "ppm",
-                "type": "double",
-                "record": 0.04
-            },
-            "pm2.5": {
-                "unitId": "ug/m3",
-                "type": "double",
-                "record": 32
-            },            
-            "pm10": {
-                "unitId": "ug/m3",
-                "type": "double",
-                "record": 48
             }
         }
     }
