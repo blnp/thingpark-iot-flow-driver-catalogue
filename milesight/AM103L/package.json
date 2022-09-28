@@ -33,30 +33,9 @@
         "unitId": "%RH",
         "type": "double"
       },
-      "activity": {
-        "type": "int64"
-      },
-      "illumination": {
-        "unitId": "lux",
-        "type": "int64"
-      },
-      "infrared_and_visible": {
-        "type": "int64"
-      },
-      "infrared": {
-        "type": "int64"
-      },
       "co2": {
         "unitId": "ppm",
         "type": "int64"
-      },
-      "tvoc": {
-        "unitId": "ppb",
-        "type": "int64"
-      },
-      "pressure": {
-        "unitId": "hPa",
-        "type": "double"
       }
     }
   },
