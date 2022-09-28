@@ -4,13 +4,6 @@ function decodeUplink(input) {
     return result;
 }
 
-/**
- * Payload Decoder for The Things Network
- *
- * Copyright 2022 Milesight IoT
- *
- * @product UC300 series
- */
 
 var gpio_in_chns = [0x03, 0x04, 0x05, 0x06];
 var gpio_out_chns = [0x07, 0x08];
@@ -162,12 +155,7 @@ function extractPoints(input) {
     return result;
 }
 
-var test = {};
-test.bytes= [0x07, 0x01, 0x00, 0xff];
-console.log(decodeUplink(test));
 
-//
-//
-//
-// exports.decodeUplink = decodeUplink;
-// exports.extractPoints = extractPoints;
+
+exports.decodeUplink = decodeUplink;
+exports.extractPoints = extractPoints;
