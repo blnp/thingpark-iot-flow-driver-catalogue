@@ -490,7 +490,8 @@ json
 
 The error example used to test `encodeDownlink`/`extractPoints` function is an object represented by the following json-schema:
 
-```json
+```
+json
 "description": {
         "description": "the description of the error example",
         "type": "string",
