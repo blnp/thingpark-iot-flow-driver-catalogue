@@ -31,7 +31,7 @@
         "type": "int64"
       },
       "pt100_": {
-        "type": "int64"
+        "type": "double"
       },
       "adc_": {
         "type": "int64"
